@@ -8,13 +8,8 @@ export const Main = () => {
       <NavBar></NavBar>
       <section className={styles.section}>
         <div className={styles.text_box}>
-          <p>HELLO, MY NAME IS</p>
-          <h2>HO SEOL</h2>
-          <em>I’m a Front End Developer</em>
-          <div className={styles.btn_box}>
-            <button>My work</button>
-            <button>Contact me</button>
-          </div>
+          <em>Hello, Welcome to My</em>
+          <h2>AQUARIUM</h2>
           <div className={styles.icon_box}>
             <ul>
               <li>
@@ -37,8 +32,16 @@ export const Main = () => {
           autoPlay={true}
           muted={true}
           loop={true}
-          src={`${process.env.PUBLIC_URL}/video/video.mp4`}
+          src={`${process.env.PUBLIC_URL}/video/video2.mp4`}
         ></video>
+        <div className={styles.sash}>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
       </section>
     </>
   );

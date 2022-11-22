@@ -1,0 +1,60 @@
+.section{width: 100%;height: 100vh; min-height: 100vh; background: linear-gradient(-135deg,#3249af,#243e77,#130747); box-sizing: border-box;}
+
+.container{max-width: 1440px; height: 100%; margin: 0 auto; padding: 0 20px; box-sizing: border-box; display: flex;  align-items: center;}
+
+.img_box{min-width: 625px; height: 750px; position: relative;}
+.img_box .img_border{width: 300px;height: 750px;background: rgba(40, 4, 141, 0.5); backdrop-filter: blur(5px);  position: absolute; top: 0;left: 0; }
+.img_box .img{width: 600px;height: 700px; position: absolute; top: 50%; left: 25px; transform: translateY(-50%); box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+.img_box .img img{width: 100%;height: 100%;object-fit: cover;}
+
+.content{margin-left: 90px; color: #fff;}
+.content > h2{font-size: 24px;font-weight: 500;}
+.content > strong{display: inline-block; font-size: 16px;font-weight: 400; margin: 20px 0 50px;}
+.content > ul{}
+.content > ul > li{display: flex;font-size: 16px;font-weight: 400; margin-bottom: 40px;}
+.content > ul > li:last-child{margin-bottom: 0;}
+.content > ul > li em{min-width: 160px;}
+.content > ul > li p{}
+
+
+@media (max-width : 1200px){
+    .img_box{min-width: 525px; }
+    .img_box .img_border{width: 250px;}
+    .img_box .img{width: 500px;}
+
+    .content > ul > li > em{min-width: 120px;}
+
+    .content{margin-left: 50px;}
+}
+
+@media (max-width : 1023px){
+    .img_box{min-width: 425px; }
+    .img_box .img_border{width: 200px;}
+    .img_box .img{width: 400px;}
+
+    .content > ul > li > em{min-width: 90px;}
+
+    .content{margin-left: 30px;}
+}
+
+@media (max-width : 767px){
+    .section{height: 100%; padding: 100px 20px;}
+    .container{flex-direction: column; align-items: stretch;}
+    .img_box{width: 100%; min-width: 0; height: 71.7080vw;}
+    .img_box .img_border{width: 50%; height: 71.7080vw;}
+    .img_box .img{width: calc(100% - 25px); height: 65.1890vw; left: 3.2595vw;}
+
+    .content{width: 100%; margin-left: 0px;  margin-top: 20px;}
+    .content strong{margin: 20px 0 30px;}
+    .content > ul > li{margin-bottom: 20px;}
+}
+
+@media (max-width : 460px){
+    .section{ padding: 70px 10px;}
+
+    .content > h2{font-size: 5.2174vw;}
+    .content > strong{font-size: 3.4783vw; margin: 4.3478vw 0 6.5217vw;}
+    .content > ul > li{font-size: 3.4783vw; margin-bottom: 4.3478vw;}
+    .content > ul > li > em{min-width: 19.5652vw;}
+
+}
