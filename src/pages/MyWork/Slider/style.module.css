@@ -37,6 +37,7 @@
 
 @media (max-width : 767px){
     .slide{padding: 80px 20px 30px;}
+    .btn_wrap button a{cursor: pointer;}
 }
 
 @media (max-width : 360px){

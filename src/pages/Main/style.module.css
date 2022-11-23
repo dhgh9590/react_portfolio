@@ -43,6 +43,9 @@
     .text_box h2{padding-left: 25px; font-size: 50px;line-height: 50px; letter-spacing: 0.6em;}
     .sash ul{width: 100%;height: 100%; display: grid; grid-template-columns: repeat(2,1fr);}
     .sash ul li:nth-child(2){display: none;}
+
+    .icon_box ul li{cursor: pointer;}
+    .icon_box ul li a{cursor: pointer;}
 }
 
 @media (max-width : 550px){

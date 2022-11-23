@@ -1,6 +1,16 @@
 body{font-family: 'Raleway', sans-serif; overflow: hidden; cursor: none;}
 /* font-family: 'Noto Sans KR', sans-serif; */
 
+@media (max-width : 900px){
+    body{overflow-y: visible;}
+}
+
+@media (max-width : 767px){
+    body{cursor: auto; overflow: visible;}
+    .cursor{display: none;}
+    .cursor-follower{display: none;}
+}
+
 .cursor {
     position: absolute;
     left: -50px; top: 0;

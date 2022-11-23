@@ -28,7 +28,8 @@
 
 @media (max-width : 767px){
     .menu_btn{ top: 20px;right: 20px;}
-    .menu ul li{margin: 15px 0;}
+    .menu_btn .btn{cursor: pointer;}
+    .menu ul li{margin: 15px 0; cursor: pointer;}
     .menu.open ul li em{font-size: 60px;}
 }
 
