@@ -1,29 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Web site created using create-react-app" />
+    <meta name="Date" content="2022-11-23T14:00:00+09:00" />
+    <meta name="keywords" content="Front-End Developer" />
+    <meta name="keywords" content="안녕하세요. 프론트엔드 개발자 오호설의 포트폴리오 입니다." />
+    <meta http-equiv="Subject" content="포트폴리오" />
+    <meta http-equiv="Author" content="오호설" />
+    <meta http-equiv="Other Agent" content="오호설" />
+    <meta http-equiv="Generator" content="Visual Studio Code" />
+    <meta http-equiv="Email" content="dhgh9590@naver.com" />
+    <meta http-equiv="Distribution" content="오호설" />
+    <meta http-equiv="Copyright" content="오호설" />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>React App</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../src/reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <style></style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div id="loading">
+      <div class="container">
+        <div class="dot dot-1"></div>
+        <div class="dot dot-2"></div>
+        <div class="dot dot-3"></div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -7" />
+          </filter>
+        </defs>
+      </svg>
+    </div>
   </body>
 </html>

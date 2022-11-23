@@ -1,16 +1,16 @@
 .nav{}
 
-.menu_btn{position: fixed; top: 50px;right: 50px; z-index: 9999; display: flex; align-items: center; }
+.menu_btn{position: fixed; top: 50px;right: 50px; z-index: 9000; display: flex; align-items: center; }
 .menu_btn em{font-size: 12px;font-weight: 400; color: #fff; margin-right: 25px; letter-spacing: 0.3em; }
-.menu_btn .btn{width: 50px;height: 50px; position: relative; cursor: pointer; background: linear-gradient(-45deg,#064d9e,#063b70); box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.menu_btn .btn{width: 50px;height: 50px; position: relative;  background: linear-gradient(-45deg,#064d9e,#063b70); box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
 
 .menu_btn .btn .icon{position: absolute; top: 50%;left: 50%;transform: translate(-50%,-50%);display: flex;flex-direction: column; align-items: flex-end;}
 .menu_btn .btn .icon span{display: block; width: 20px; height: 1px; background: #fff; margin:3px 0;}
 .menu_btn .btn .icon span:first-child{width: 11px;}
 .menu_btn .btn .icon span:last-child{width: 15px;}
-.close_icon{font-size: 20px; color: #fff;}
+.close_icon{font-size: 20px; color: #ccc;}
 
-.menu{width: 100%;height: 0px;  background-color: rgba(19, 16, 59, 0.96); backdrop-filter: blur(10px); position: fixed; top: 0;left: 0; z-index: 9998; transition: all 0.6s; }
+.menu{width: 100%;height: 0px;  background-color: rgba(19, 16, 59, 0.96); backdrop-filter: blur(10px); position: fixed; top: 0;left: 0; z-index: 8000; transition: all 0.6s; }
 .menu ul{ overflow: hidden; visibility: hidden; opacity: 0;}
 .menu ul li{margin: 20px 0; opacity: 0; transform: translateX(-50px); }
 
@@ -22,7 +22,7 @@
 .menu.open ul li:nth-child(3){transition-delay: 1s;}
 .menu.open ul li:nth-child(4){transition-delay: 1.2s;}
 .menu.open ul li:nth-child(5){transition-delay: 1.4s;}
-.menu.open ul li em{font-size: 80px; font-weight: 600; cursor: pointer; position: relative;color: #fff;text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
+.menu.open ul li em{font-size: 80px; font-weight: 600;  position: relative;color: #fff;text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
 .menu.open ul li em::before{content: ''; width: 0%;height: 40%;background: linear-gradient(135deg,#6253E1,#04BEFE);  z-index: -1; position: absolute; bottom: 0; left: -10px; transition: all 0.6s;}
 .menu.open ul li:hover em::before{width: calc(100% + 20px)  }
 
