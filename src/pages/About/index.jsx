@@ -50,7 +50,7 @@ export const About = () => {
               </li>
               <li>
                 <em>Skills</em>
-                <p>: HTML5 / CSS3 / JavaScript / TypeScript / Jquery / react / Node.js </p>
+                <p>: HTML5 / CSS3 / JavaScript / TypeScript / Jquery / react / Next.js / Node.js </p>
               </li>
               <li>
                 <em>Education</em>
