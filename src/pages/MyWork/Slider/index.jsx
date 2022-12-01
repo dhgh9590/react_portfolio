@@ -8,10 +8,14 @@ import styles from './style.module.css';
 
 // import required modules
 import { Navigation } from 'swiper';
+import { useState } from 'react';
 
 export default function App() {
+  const [count, setCount] = useState();
+  console.log(count);
   return (
     <div className={`${styles.container} slide1`}>
+      <span className={styles.count}>{count && count}/7</span>
       <div className={styles.slider_wrap}>
         <Swiper
           modules={[Navigation]}
@@ -20,6 +24,10 @@ export default function App() {
           speed={1500}
           loop={true}
           loopAdditionalSlides={1}
+          onSlideChange={swiper => {
+            setCount(swiper.realIndex + 1);
+            console.log(swiper);
+          }}
           className="mySwiper"
         >
           <div className={styles.slider}>

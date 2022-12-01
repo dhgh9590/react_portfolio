@@ -1,8 +1,8 @@
 
 .slide{width: 100%;height: 100vh; padding: 0 50px; box-sizing: border-box;display: flex; justify-content: center; align-items: center;}
 
-.slide_img{width: 1200px; min-width: 600px; height: 600px; box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; transform: translateX(100px);  opacity: 0; transition: all 2.4s;}
-.slide_img img{width: 100%;height: 100%;object-fit: cover;}
+.slide_img{width: 1200px; min-width: 600px; height: 600px; border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; transform: translateX(100px);  opacity: 0; transition: all 2.4s;}
+.slide_img img{width: 100%;height: 100%;object-fit: cover;  border-radius: 10px;}
 
 .slide_text{min-width: 500px; margin-left: 40px; color: #fff;  }
 .slide_text > p {font-size: 18px; color: #ccc; transform: translateX(50px); opacity: 0; transition: all 2s; transition-delay: 0.2s;}
@@ -17,11 +17,13 @@
 .slide_text .text em{font-size: 16px; color: #ccc; max-width: 300px;}
 
 .btn_wrap{margin-top: 40px; transform: translateX(50px); opacity: 0; transition: all 2s; transition-delay: 1.4s;}
-.btn_wrap button{width: 130px;height: 50px; margin-right: 20px; background: none; border: 1px solid #ccc; }
+.btn_wrap button{width: 130px;height: 50px; margin-right: 20px; background: none; border: 1px solid #ccc;  border-radius: 5px;}
 .btn_wrap button a{width: 100%;height: 100%; display: block; line-height: 50px; color: #fff; font-size: 16px; position: relative; transition: all 0.4s; cursor: none;}
 .btn_wrap button a::after{content: ''; width: 0%;height: 100%; background: #fff; position: absolute; top: 0;left: 0; transition: all 0.4s; z-index: -1; }
 .btn_wrap button:hover a::after{width: 100%;}
 .btn_wrap button:hover a{color: #000;}
+
+.count{position: fixed;  bottom: 70px;left:50%; transform: translateX(-50%); font-size: 20px; color: #fff; z-index: 1000;}
 
 
 @media (max-width : 1200px){
@@ -33,12 +35,15 @@
     .slide{width: 100%; height: 100%; flex-direction: column; padding: 120px 20px 50px; box-sizing: border-box;}
     .slide_img{width: 100%; min-width: 100%;  height: 50.0000vw;}
     .slide_text{width: 100%; min-width: 100%; margin-top: 20px; margin-left: 0;}
-    .slide_text .text em{font-size: 16px; color: #ccc; max-width: 80%;}
+    .slide_text .text em{font-size: 16px; color: #ccc; max-width: 90%;}
+
+    .count{top: 80px;left: 40px;}
 }
 
 @media (max-width : 767px){
     .slide{padding: 80px 20px 30px;}
     .btn_wrap button a{cursor: pointer;}
+    .count{top: 50px;}
 }
 
 @media (max-width : 360px){
