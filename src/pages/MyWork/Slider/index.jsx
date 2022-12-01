@@ -113,6 +113,52 @@ export default function App() {
                 <SwiperSlide key={2}>
                   <div className={`${styles.slide} slide`}>
                     <div className={`${styles.slide_img} slide_img`}>
+                      <img src={`${process.env.PUBLIC_URL}/images/mockup/movie.png`} alt="" />
+                    </div>
+                    <div className={`${styles.slide_text} slide_text`}>
+                      <p>RESPONSIVE WEB</p>
+                      <h2>MOVIE</h2>
+                      <div className={`${styles.text} text`}>
+                        <strong>프로젝트 소개</strong>
+                        <em>
+                          node.js와 mongoDB, next.js를 사용한 영화 평점 사이트 입니다.소셜 로그인을 한 사용자는 평점을
+                          등록 할 수 있습니다.
+                        </em>
+                      </div>
+                      <div className={`${styles.text} text`}>
+                        <strong>팀 구성</strong>
+                        <em>프론트엔드 1명</em>
+                      </div>
+                      <div className={`${styles.text} text`}>
+                        <strong>기여도 및 제작기간</strong>
+                        <em>프론트엔드 100%, 제작기간 4일</em>
+                        <em>백엔드 100%</em>
+                      </div>
+                      <div className={`${styles.text} text`}>
+                        <strong>제작 방식</strong>
+                        <em>프론트엔드 : HTML5, CSS3, Javascript, Next.js</em>
+                        <em>백엔드 : Node.js, mongoDB, firebase</em>
+                      </div>
+                      <div className={`${styles.btn_wrap} btn_wrap`}>
+                        <button>
+                          <a href="https://movie-370306.du.r.appspot.com/" target="_blank" rel="noreferrer">
+                            VIEW SITE
+                          </a>
+                        </button>
+                        <button>
+                          <a href="https://github.com/dhgh9590/movie" target="_blank" rel="noreferrer">
+                            GIT HUB
+                          </a>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              </li>
+              <li>
+                <SwiperSlide key={3}>
+                  <div className={`${styles.slide} slide`}>
+                    <div className={`${styles.slide_img} slide_img`}>
                       <img src={`${process.env.PUBLIC_URL}/images/mockup/youtube_music.png`} alt="" />
                     </div>
                     <div className={`${styles.slide_text} slide_text`}>
@@ -129,6 +175,7 @@ export default function App() {
                       <div className={`${styles.text} text`}>
                         <strong>기여도 및 제작기간</strong>
                         <em>프론트엔드 100%, 제작기간 7일</em>
+                        <em>백엔드 100%</em>
                       </div>
                       <div className={`${styles.text} text`}>
                         <strong>제작 방식</strong>
@@ -152,7 +199,7 @@ export default function App() {
                 </SwiperSlide>
               </li>
               <li>
-                <SwiperSlide key={3}>
+                <SwiperSlide key={4}>
                   <div className={`${styles.slide} slide`}>
                     <div className={`${styles.slide_img} slide_img`}>
                       <img src={`${process.env.PUBLIC_URL}/images/mockup/youtube.png`} alt="" />
@@ -193,7 +240,7 @@ export default function App() {
                 </SwiperSlide>
               </li>
               <li>
-                <SwiperSlide key={4}>
+                <SwiperSlide key={5}>
                   <div className={`${styles.slide} slide`}>
                     <div className={`${styles.slide_img} slide_img`}>
                       <img src={`${process.env.PUBLIC_URL}/images/mockup/frock.png`} alt="" />
@@ -235,7 +282,7 @@ export default function App() {
                 </SwiperSlide>
               </li>
               <li>
-                <SwiperSlide key={5}>
+                <SwiperSlide key={6}>
                   <div className={`${styles.slide} slide`}>
                     <div className={`${styles.slide_img} slide_img`}>
                       <img src={`${process.env.PUBLIC_URL}/images/mockup/news.png`} alt="" />
