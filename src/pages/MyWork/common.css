@@ -13,7 +13,6 @@
 .slide1 .swiper-slide-active .slide .slide_text .text{transform: translateX(0); opacity: 1; }
 .slide1 .swiper-slide-active .slide .slide_text .btn_wrap{transform: translateX(0); opacity: 1; }
 
-
 @media (max-width : 900px){
     .slide1 .swiper-button-prev{ display: none;}
     .slide1 .swiper-button-next { display: none; }

@@ -18,7 +18,7 @@ export const About = () => {
           <div className={`${styles.img_box} ${load && styles.active}`}>
             <div className={styles.img_border}></div>
             <div className={styles.img}>
-              <img src={`${process.env.PUBLIC_URL}/images/about.jpg`} alt="" />
+              <img src={`${process.env.PUBLIC_URL}/images/about.jpg`} alt="이미지" />
             </div>
           </div>
           <div className={`${styles.content} ${load && styles.active}`}>
@@ -50,7 +50,7 @@ export const About = () => {
               </li>
               <li>
                 <em>Skills</em>
-                <p>: HTML5 / CSS3 / JavaScript / TypeScript / Jquery / React / Next.js / Node.js </p>
+                <p>: HTML5 / CSS3 / JavaScript / TypeScript / Jquery / React / Next / Node / MongoDB </p>
               </li>
               <li>
                 <em>Education</em>

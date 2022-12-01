@@ -5,14 +5,11 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import styles from './style.module.css';
-
-// import required modules
 import { Navigation } from 'swiper';
 import { useState } from 'react';
 
 export default function App() {
   const [count, setCount] = useState();
-  console.log(count);
   return (
     <div className={`${styles.container} slide1`}>
       <span className={styles.count}>{count && count}/7</span>
@@ -36,7 +33,7 @@ export default function App() {
                 <SwiperSlide key={0}>
                   <div className={`${styles.slide} slide`}>
                     <div className={`${styles.slide_img} slide_img`}>
-                      <img src={`${process.env.PUBLIC_URL}/images/mockup/calendar.png`} alt="" />
+                      <img src={`${process.env.PUBLIC_URL}/images/mockup/calendar.png`} alt="슬라이드1" />
                     </div>
                     <div className={`${styles.slide_text} slide_text`}>
                       <p>RESPONSIVE WEB</p>
@@ -79,7 +76,7 @@ export default function App() {
                 <SwiperSlide key={1}>
                   <div className={`${styles.slide} slide`}>
                     <div className={`${styles.slide_img} slide_img`}>
-                      <img src={`${process.env.PUBLIC_URL}/images/mockup/mollee.png`} alt="" />
+                      <img src={`${process.env.PUBLIC_URL}/images/mockup/mollee.png`} alt="슬라이드2" />
                     </div>
                     <div className={`${styles.slide_text} slide_text`}>
                       <p>RESPONSIVE WEB</p>
@@ -121,7 +118,7 @@ export default function App() {
                 <SwiperSlide key={2}>
                   <div className={`${styles.slide} slide`}>
                     <div className={`${styles.slide_img} slide_img`}>
-                      <img src={`${process.env.PUBLIC_URL}/images/mockup/movie.png`} alt="" />
+                      <img src={`${process.env.PUBLIC_URL}/images/mockup/movie.png`} alt="슬라이드3" />
                     </div>
                     <div className={`${styles.slide_text} slide_text`}>
                       <p>RESPONSIVE WEB</p>
@@ -167,7 +164,7 @@ export default function App() {
                 <SwiperSlide key={3}>
                   <div className={`${styles.slide} slide`}>
                     <div className={`${styles.slide_img} slide_img`}>
-                      <img src={`${process.env.PUBLIC_URL}/images/mockup/youtube_music.png`} alt="" />
+                      <img src={`${process.env.PUBLIC_URL}/images/mockup/youtube_music.png`} alt="슬라이드4" />
                     </div>
                     <div className={`${styles.slide_text} slide_text`}>
                       <p>RESPONSIVE WEB</p>
@@ -210,7 +207,7 @@ export default function App() {
                 <SwiperSlide key={4}>
                   <div className={`${styles.slide} slide`}>
                     <div className={`${styles.slide_img} slide_img`}>
-                      <img src={`${process.env.PUBLIC_URL}/images/mockup/youtube.png`} alt="" />
+                      <img src={`${process.env.PUBLIC_URL}/images/mockup/youtube.png`} alt="슬라이드5" />
                     </div>
                     <div className={`${styles.slide_text} slide_text`}>
                       <p>RESPONSIVE WEB</p>
@@ -251,7 +248,7 @@ export default function App() {
                 <SwiperSlide key={5}>
                   <div className={`${styles.slide} slide`}>
                     <div className={`${styles.slide_img} slide_img`}>
-                      <img src={`${process.env.PUBLIC_URL}/images/mockup/frock.png`} alt="" />
+                      <img src={`${process.env.PUBLIC_URL}/images/mockup/frock.png`} alt="슬라이드6" />
                     </div>
                     <div className={`${styles.slide_text} slide_text`}>
                       <p>RESPONSIVE WEB</p>
@@ -293,7 +290,7 @@ export default function App() {
                 <SwiperSlide key={6}>
                   <div className={`${styles.slide} slide`}>
                     <div className={`${styles.slide_img} slide_img`}>
-                      <img src={`${process.env.PUBLIC_URL}/images/mockup/news.png`} alt="" />
+                      <img src={`${process.env.PUBLIC_URL}/images/mockup/news.png`} alt="슬라이드7" />
                     </div>
                     <div className={`${styles.slide_text} slide_text`}>
                       <p>RESPONSIVE WEB</p>

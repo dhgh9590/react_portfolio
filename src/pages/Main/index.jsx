@@ -35,19 +35,19 @@ export const Main = () => {
             <ul>
               <li ref={icon1}>
                 <a href="https://github.com/dhgh9590" target="_blank" rel="noreferrer">
-                  <img src={`${process.env.PUBLIC_URL}/images/icon/github.png`} alt="" />
+                  <img src={`${process.env.PUBLIC_URL}/images/icon/github.png`} alt="아이콘" />
                 </a>
               </li>
               <li ref={icon2}>
                 <a href="https://www.facebook.com/dhgh9590" target="_blank" rel="noreferrer">
-                  <img src={`${process.env.PUBLIC_URL}/images/icon/facebook.png`} alt="" />
+                  <img src={`${process.env.PUBLIC_URL}/images/icon/facebook.png`} alt="아이콘" />
                 </a>
               </li>
               <li ref={icon3}>
-                <img src={`${process.env.PUBLIC_URL}/images/icon/instagram.png`} alt="" />
+                <img src={`${process.env.PUBLIC_URL}/images/icon/instagram.png`} alt="아이콘" />
               </li>
               <li ref={icon4}>
-                <img src={`${process.env.PUBLIC_URL}/images/icon/twitter.png`} alt="" />
+                <img src={`${process.env.PUBLIC_URL}/images/icon/twitter.png`} alt="아이콘" />
               </li>
             </ul>
           </div>
