@@ -83,7 +83,7 @@ export default function App() {
                       <h2>MOLLEE</h2>
                       <div className={`${styles.text} text`}>
                         <strong>프로젝트 소개</strong>
-                        <em>firebase와 Realtime Database를 이용한 쇼핑몰 프로젝트</em>
+                        <em>Firebase와 Realtime Database를 이용한 쇼핑몰 프로젝트</em>
                       </div>
                       <div className={`${styles.text} text`}>
                         <strong>팀 구성</strong>
@@ -96,7 +96,7 @@ export default function App() {
                       <div className={`${styles.text} text`}>
                         <strong>제작 방식</strong>
                         <em>프론트엔드 : HTML5, CSS3, Javascript, React</em>
-                        <em>백엔드 : firebase, Realtime Database</em>
+                        <em>백엔드 : Firebase, Realtime Database</em>
                       </div>
                       <div className={`${styles.btn_wrap} btn_wrap`}>
                         <button>
@@ -126,7 +126,7 @@ export default function App() {
                       <div className={`${styles.text} text`}>
                         <strong>프로젝트 소개</strong>
                         <em>
-                          node.js와 mongoDB, next.js를 사용한 영화 평점 사이트 입니다.소셜 로그인을 한 사용자는 평점을
+                          Node.js와 MongoDB, Next.js를 사용한 영화 평점 사이트 입니다.소셜 로그인을 한 사용자는 평점을
                           등록 할 수 있습니다.
                         </em>
                       </div>
@@ -142,7 +142,7 @@ export default function App() {
                       <div className={`${styles.text} text`}>
                         <strong>제작 방식</strong>
                         <em>프론트엔드 : HTML5, CSS3, Javascript, Next.js</em>
-                        <em>백엔드 : Node.js, mongoDB, firebase</em>
+                        <em>백엔드 : Node.js, MongoDB, Firebase</em>
                       </div>
                       <div className={`${styles.btn_wrap} btn_wrap`}>
                         <button>
@@ -185,7 +185,7 @@ export default function App() {
                       <div className={`${styles.text} text`}>
                         <strong>제작 방식</strong>
                         <em>프론트엔드 : HTML5, CSS3, Javascript, React</em>
-                        <em>백엔드 : Node.js, firebase, mongoDB</em>
+                        <em>백엔드 : Node.js, Firebase, MongoDB</em>
                       </div>
                       <div className={`${styles.btn_wrap} btn_wrap`}>
                         <button>
@@ -214,7 +214,7 @@ export default function App() {
                       <h2>Youtube</h2>
                       <div className={`${styles.text} text`}>
                         <strong>프로젝트 소개</strong>
-                        <em>Youtube API를 사용한 react 프로젝트</em>
+                        <em>Youtube API를 사용한 React,Typescript 프로젝트</em>
                       </div>
                       <div className={`${styles.text} text`}>
                         <strong>팀 구성</strong>
@@ -226,7 +226,7 @@ export default function App() {
                       </div>
                       <div className={`${styles.text} text`}>
                         <strong>제작 방식</strong>
-                        <em>프론트엔드 : HTML5, CSS3, Javascript, React</em>
+                        <em>프론트엔드 : HTML5, CSS3, Javascript, Typescript , React</em>
                       </div>
                       <div className={`${styles.btn_wrap} btn_wrap`}>
                         <button>
@@ -255,7 +255,7 @@ export default function App() {
                       <h2>frock</h2>
                       <div className={`${styles.text} text`}>
                         <strong>프로젝트 소개</strong>
-                        <em>firebase를 이용한 간단한 react 쇼핑몰 프로젝트</em>
+                        <em>Firebase를 이용한 간단한 React 쇼핑몰 프로젝트</em>
                       </div>
                       <div className={`${styles.text} text`}>
                         <strong>팀 구성</strong>
@@ -268,7 +268,7 @@ export default function App() {
                       <div className={`${styles.text} text`}>
                         <strong>제작 방식</strong>
                         <em>프론트엔드 : HTML5, CSS3, Javascript, React</em>
-                        <em>백엔드 : firebase</em>
+                        <em>백엔드 : Firebase</em>
                       </div>
                       <div className={`${styles.btn_wrap} btn_wrap`}>
                         <button>
