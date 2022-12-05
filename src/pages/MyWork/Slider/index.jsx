@@ -40,7 +40,8 @@ export default function App() {
                       <h2>Google Calender</h2>
                       <div className={`${`${styles.text} text`} text`}>
                         <strong>프로젝트 소개</strong>
-                        <em>클론 코딩 구글 캘린더 팀프로젝트</em>
+                        <em>구글 캘린더 클론 코딩 팀프로젝트</em>
+                        <em>로컬과 소셜 로그인을 지원하고 캘린더별 자신의 일정을 관리할 수 있습니다.</em>
                       </div>
                       <div className={`${`${styles.text} text`} text`}>
                         <strong>팀 구성</strong>
@@ -84,6 +85,10 @@ export default function App() {
                       <div className={`${styles.text} text`}>
                         <strong>프로젝트 소개</strong>
                         <em>Firebase와 Realtime Database를 이용한 쇼핑몰 프로젝트</em>
+                        <em>
+                          관리자 계정으로 로그인시 상품등록이 가능하고 등록된 상품정보는 Realtime Database와
+                          Cloudinary에 저장 됩니다
+                        </em>
                       </div>
                       <div className={`${styles.text} text`}>
                         <strong>팀 구성</strong>
@@ -125,10 +130,8 @@ export default function App() {
                       <h2>MOVIE</h2>
                       <div className={`${styles.text} text`}>
                         <strong>프로젝트 소개</strong>
-                        <em>
-                          Node.js와 MongoDB, Next.js를 사용한 영화 평점 사이트 입니다.소셜 로그인을 한 사용자는 평점을
-                          등록 할 수 있습니다.
-                        </em>
+                        <em>Node.js와 MongoDB, Next.js를 사용한 영화 평점 사이트</em>
+                        <em>소셜 로그인을 한 사용자는 평점을 등록할 수 있습니다.</em>
                       </div>
                       <div className={`${styles.text} text`}>
                         <strong>팀 구성</strong>
@@ -172,6 +175,7 @@ export default function App() {
                       <div className={`${styles.text} text`}>
                         <strong>프로젝트 소개</strong>
                         <em>firebase와 Node.js, mongoDB를 이용한 유튜브 음악 사이트</em>
+                        <em>로그인한 사용자는 글쓰기를 통해 추천하고자 하는 유튜브 동영상을 업로드 할 수 있습니다</em>
                       </div>
                       <div className={`${styles.text} text`}>
                         <strong>팀 구성</strong>
