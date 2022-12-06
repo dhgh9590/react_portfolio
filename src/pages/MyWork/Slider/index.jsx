@@ -23,7 +23,6 @@ export default function App() {
           loopAdditionalSlides={1}
           onSlideChange={swiper => {
             setCount(swiper.realIndex + 1);
-            console.log(swiper);
           }}
           className="mySwiper"
         >

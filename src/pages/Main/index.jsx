@@ -15,6 +15,41 @@ export const Main = () => {
   const icon4 = useRef(null);
   const overValue = useMouseOver([icon1, icon2, icon3, icon4]); //커스텀 훅으로 값 전달, 반드시 배열로 전달!
 
+  const frame = useRef(null);
+  const [mouseValue, setMouseValue] = useState(); //section 마우스 값 저장
+
+  //section 마우스 움직임
+  const mouseMove = e => {
+    if (resize > 1023) {
+      const { x, y, width, height } = frame.current.getBoundingClientRect();
+      const left = e.clientX - x;
+      const top = e.clientY - y;
+      const centerX = left - width / 2;
+      const centerY = top - height / 2;
+      const t = Math.sqrt(centerX ** 2 + centerY ** 2);
+      const value = {
+        centerY: centerY,
+        centerX: centerX,
+        t: t,
+      };
+      setMouseValue(value);
+    }
+  };
+
+  //브라우저 사이즈 값
+  const [resize, setResize] = useState();
+
+  const handleResize = () => {
+    setResize(window.innerWidth);
+  };
+
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   //overValue값이 변경될때 마다 실행
   useEffect(() => {
     setOver(overValue);
@@ -22,13 +57,30 @@ export const Main = () => {
 
   useEffect(() => {
     setLoad(true);
+    handleResize();
   }, []);
 
   return (
     <>
       <NavBar></NavBar>
-      <section className={styles.section}>
-        <div className={`${styles.text_box} ${load && styles.active}`}>
+      <section
+        ref={frame}
+        onMouseMove={e => {
+          resize > 1023 && mouseMove(e);
+        }}
+        className={styles.section}
+      >
+        <div
+          className={`${styles.text_box} ${load && styles.active}`}
+          style={{
+            transform: `rotate3d(${mouseValue && resize > 1023 && -mouseValue.centerY / 1000},${
+              mouseValue && resize > 1023 && mouseValue.centerX / 1000
+            },0,${mouseValue && resize > 1023 && mouseValue.t / 50}deg)`,
+            textShadow: `${mouseValue && resize > 1023 && mouseValue.centerX / 30}px ${
+              mouseValue && resize > 1023 && mouseValue.centerY / 30
+            }px 5px rgba(0,0,0,0.5)`,
+          }}
+        >
           <em>Hello, Welcome to My</em>
           <h2>AQUARIUM</h2>
           <div className={styles.icon_box}>
