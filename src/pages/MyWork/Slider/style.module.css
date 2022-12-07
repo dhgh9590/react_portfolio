@@ -39,7 +39,7 @@
 }
 
 @media (max-width : 767px){
-    .slide{padding: 80px 20px 0px;}
+    .slide{padding: 80px 20px 20px;}
     .btn_wrap button a{cursor: pointer;}
     .count{top: 50px;}
 }
