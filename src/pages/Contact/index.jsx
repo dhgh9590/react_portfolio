@@ -39,19 +39,19 @@ export const Contact = () => {
             PLEASE DO NOT HESITATE TO SEND US A MESSAGE.
           </h4>
           <form ref={form} onSubmit={sendEmail} className={styles.form}>
-            <div>
+            <div className={`${styles.input_box} ${styles.box}`}>
               <input type="text" name="from_name" placeholder="Your Name" />
             </div>
-            <div>
+            <div className={`${styles.input_box} ${styles.box}`}>
               <input type="email" name="email" placeholder="Your Email" />
             </div>
-            <div>
+            <div className={`${styles.input_box} ${styles.box}`}>
               <input type="tel" name="phone" placeholder="Your Phone" />
             </div>
-            <div className={styles.text}>
+            <div className={`${styles.text} ${styles.box}`}>
               <textarea name="text" placeholder="Message" />
             </div>
-            <div className={styles.btn_wrap}>
+            <div className={`${styles.btn_wrap} ${styles.box}`}>
               <input ref={btn} type="submit" value="SEND MESSAGE" className={styles.btn} />
             </div>
           </form>

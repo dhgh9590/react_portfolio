@@ -76,8 +76,8 @@ export const Main = () => {
             transform: `rotate3d(${mouseValue && resize > 1023 && -mouseValue.centerY / 1000},${
               mouseValue && resize > 1023 && mouseValue.centerX / 1000
             },0,${mouseValue && resize > 1023 && mouseValue.t / 50}deg)`,
-            textShadow: `${mouseValue && resize > 1023 && mouseValue.centerX / 30}px ${
-              mouseValue && resize > 1023 && mouseValue.centerY / 30
+            textShadow: `${mouseValue && resize > 1023 && -mouseValue.centerX / 30}px ${
+              mouseValue && resize > 1023 && -mouseValue.centerY / 30
             }px 5px rgba(0,0,0,0.5)`,
           }}
         >
@@ -113,10 +113,18 @@ export const Main = () => {
         ></video>
         <div className={styles.sash}>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>
+              <em>HTML5</em>
+            </li>
+            <li>
+              <em>CSS3</em>
+            </li>
+            <li>
+              <em>JavaScript</em>
+            </li>
+            <li>
+              <em>React</em>
+            </li>
           </ul>
         </div>
       </section>

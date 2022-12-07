@@ -1,9 +1,9 @@
-.slide{width: 100%;height: 100vh; padding: 0 50px; box-sizing: border-box;display: flex; justify-content: center; align-items: center;}
+.slide{width: 100%;height: 100vh; padding: 0 50px; box-sizing: border-box;display: flex; justify-content: space-between; align-items: center;}
 
 .slide_img{width: 1200px; min-width: 600px; height: 600px; border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; transform: translateX(100px);  opacity: 0; transition: all 2.4s;}
 .slide_img img{width: 100%;height: 100%;object-fit: cover;  border-radius: 10px;}
 
-.slide_text{min-width: 500px; margin-left: 40px; color: #fff;  }
+.slide_text{width: 600px; margin-left: 40px; color: #fff;}
 .slide_text > p {font-size: 18px; color: #ccc; transform: translateX(50px); opacity: 0; transition: all 2s; transition-delay: 0.2s;}
 .slide_text h2{font-size: 36px; font-weight: 700;  margin-bottom: 30px; transform: translateX(50px); opacity: 0; transition: all 2s; transition-delay: 0.4s;}
 .slide_text .text{ display: flex; flex-direction: column; margin-bottom: 20px; transform: translateX(50px); opacity: 0; transition: all 2s;}
@@ -13,7 +13,7 @@
 .slide_text .text:nth-child(6){transition-delay: 1.2s;}
 .slide_text .text:last-child{margin-bottom: 0;}
 .slide_text .text strong{font-size: 18px; font-weight: 600; margin-bottom: 5px;}
-.slide_text .text em{font-size: 16px; color: #ccc; max-width: 300px;}
+.slide_text .text em{font-size: 16px; color: #ccc;}
 
 .btn_wrap{margin-top: 40px; transform: translateX(50px); opacity: 0; transition: all 2s; transition-delay: 1.4s;}
 .btn_wrap button{width: 130px;height: 50px; margin-right: 20px; background: none; border: 1px solid #ccc;  border-radius: 5px;}
@@ -30,7 +30,7 @@
 }
 
 @media (max-width : 900px){
-    .slide{width: 100%; height: 100%; flex-direction: column; padding: 120px 20px 50px; box-sizing: border-box;}
+    .slide{width: 100%; height: 100%; flex-direction: column; justify-content: center; padding: 120px 20px 50px; box-sizing: border-box;}
     .slide_img{width: 100%; min-width: 100%;  height: 50.0000vw;}
     .slide_text{width: 100%; min-width: 100%; margin-top: 20px; margin-left: 0;}
     .slide_text .text em{font-size: 16px; color: #ccc; max-width: 90%;}
@@ -39,7 +39,7 @@
 }
 
 @media (max-width : 767px){
-    .slide{padding: 80px 20px 30px;}
+    .slide{padding: 80px 20px 0px;}
     .btn_wrap button a{cursor: pointer;}
     .count{top: 50px;}
 }

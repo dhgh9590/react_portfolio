@@ -56,7 +56,7 @@
 }
 
 @media (max-width : 767px){
-    .section{height: 100%; padding: 100px 20px;}
+    .section{height: 100%; padding: 100px 20px 40px;}
     .container{flex-direction: column; align-items: stretch;}
     .img_box{width: 100%; min-width: 0; height: 71.7080vw;}
     .img_box .img_border{width: 50%; height: 71.7080vw;}
@@ -68,7 +68,7 @@
 }
 
 @media (max-width : 460px){
-    .section{ padding: 70px 10px;}
+    .section{ padding: 70px 10px 20px;}
 
     .content > h2{font-size: 5.2174vw;}
     .content > strong{font-size: 3.4783vw; margin: 4.3478vw 0 6.5217vw;}
