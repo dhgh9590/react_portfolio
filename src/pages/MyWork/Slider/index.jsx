@@ -49,7 +49,8 @@ export default function App() {
                       </div>
                       <div className={`${`${styles.text} text`} text`}>
                         <strong>기여도 및 제작기간</strong>
-                        <em>프론트엔드 50%, 제작기간 4개월</em>
+                        <em>제작기간 4개월</em>
+                        <em>프론트엔드 50%</em>
                       </div>
                       <div className={`${`${styles.text} text`} text`}>
                         <strong>제작 방식</strong>
@@ -95,7 +96,9 @@ export default function App() {
                       </div>
                       <div className={`${styles.text} text`}>
                         <strong>기여도 및 제작기간</strong>
-                        <em>프론트엔드 100%, 제작기간 5일</em>
+                        <em>제작기간 5일</em>
+                        <em>프론트엔드 100%</em>
+                        <em>백엔드 100%</em>
                       </div>
                       <div className={`${styles.text} text`}>
                         <strong>제작 방식</strong>
@@ -138,7 +141,8 @@ export default function App() {
                       </div>
                       <div className={`${styles.text} text`}>
                         <strong>기여도 및 제작기간</strong>
-                        <em>프론트엔드 100%, 제작기간 4일</em>
+                        <em>제작기간 4일</em>
+                        <em>프론트엔드 100%</em>
                         <em>백엔드 100%</em>
                       </div>
                       <div className={`${styles.text} text`}>
@@ -182,7 +186,8 @@ export default function App() {
                       </div>
                       <div className={`${styles.text} text`}>
                         <strong>기여도 및 제작기간</strong>
-                        <em>프론트엔드 100%, 제작기간 7일</em>
+                        <em>제작기간 7일</em>
+                        <em>프론트엔드 100%</em>
                         <em>백엔드 100%</em>
                       </div>
                       <div className={`${styles.text} text`}>
@@ -225,7 +230,8 @@ export default function App() {
                       </div>
                       <div className={`${styles.text} text`}>
                         <strong>기여도 및 제작기간</strong>
-                        <em>프론트엔드 100%, 제작기간 4일</em>
+                        <em>제작기간 4일</em>
+                        <em>프론트엔드 100%</em>
                       </div>
                       <div className={`${styles.text} text`}>
                         <strong>제작 방식</strong>
@@ -266,7 +272,8 @@ export default function App() {
                       </div>
                       <div className={`${styles.text} text`}>
                         <strong>기여도 및 제작기간</strong>
-                        <em>프론트엔드 100%, 제작기간 5일</em>
+                        <em>제작기간 5일</em>
+                        <em>프론트엔드 100%</em>
                       </div>
                       <div className={`${styles.text} text`}>
                         <strong>제작 방식</strong>
@@ -308,7 +315,8 @@ export default function App() {
                       </div>
                       <div className={`${styles.text} text`}>
                         <strong>기여도 및 제작기간</strong>
-                        <em>프론트엔드 100%, 제작기간 7일</em>
+                        <em>제작기간 7일</em>
+                        <em>프론트엔드 100%</em>
                       </div>
                       <div className={`${styles.text} text`}>
                         <strong>제작 방식</strong>
