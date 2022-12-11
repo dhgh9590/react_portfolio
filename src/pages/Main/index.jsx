@@ -113,18 +113,10 @@ export const Main = () => {
         ></video>
         <div className={styles.sash}>
           <ul>
-            <li>
-              <em>HTML5</em>
-            </li>
-            <li>
-              <em>CSS3</em>
-            </li>
-            <li>
-              <em>JavaScript</em>
-            </li>
-            <li>
-              <em>React</em>
-            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
           </ul>
         </div>
       </section>
