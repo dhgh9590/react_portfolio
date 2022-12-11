@@ -8,7 +8,8 @@ const Sitemap = require('react-router-sitemap').default;
 function generateSitemap() {
   return new Sitemap(router)
     .build('https://dhgh9590-portfolio.netlify.app/') // 업로드 되는 도메인 이름으로 변경해주세요.
-    .save('../public/sitemap.xml'); // sitemap.xml 파일이 생성될 위치입니다.
+    .save('../public/sitemap.xml') // sitemap.xml 파일이 생성될 위치입니다.
+    .save('./public/sitemap.xml'); // sitemap.xml 파일이 생성될 위치입니다.
 }
 
 generateSitemap();
