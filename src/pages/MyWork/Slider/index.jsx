@@ -324,12 +324,12 @@ export default function App() {
                       </div>
                       <div className={`${styles.btn_wrap} btn_wrap`}>
                         <button>
-                          <a href="http://dhgh9590.dothome.co.kr/news/index.html" target="_blank" rel="noreferrer">
+                          <a href="https://dhgh9590-newyorktimes.netlify.app/" target="_blank" rel="noreferrer">
                             VIEW SITE
                           </a>
                         </button>
                         <button>
-                          <a href="https://github.com/dhgh9590/News" target="_blank" rel="noreferrer">
+                          <a href="https://github.com/dhgh9590/NewYorkTimes" target="_blank" rel="noreferrer">
                             GIT HUB
                           </a>
                         </button>
