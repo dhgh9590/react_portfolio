@@ -34,7 +34,7 @@ export const About = () => {
               </li>
               <li>
                 <em>Age</em>
-                <p>: 29</p>
+                <p>: 30</p>
               </li>
               <li>
                 <em>Address</em>
