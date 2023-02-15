@@ -27,6 +27,8 @@ body::-webkit-scrollbar-track {
     .cursor-follower{display: none;}
 }
 
+/* 마우스 설정 */
+
 .cursor {
     position: absolute;
     left: -50px; top: 0;
