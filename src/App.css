@@ -57,6 +57,8 @@ body::-webkit-scrollbar-track {background-color: #575757;}
     pointer-events: none;
     transition: transform 0.6s ease-in-out, opacity 0.2s ease-in-out;
 }
+
+/* 마우스 엑티브 스타일 지정 */
 .cursor-follower.active1 {
     transform: scale(3);
     background-color: rgb(0, 47, 255, 0.3);
