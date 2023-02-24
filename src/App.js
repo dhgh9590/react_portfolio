@@ -13,8 +13,8 @@ function App() {
   const follower = useRef(null); //마우스2
   const [over, setOver] = useState(false); //마우스 ref에 올라가거가 나가면 변경됨
 
+  //마우스 좌표
   useEffect(() => {
-    //마우스 좌표
     window.addEventListener('mousemove', function (e) {
       gsap.to(cursor.current, { duration: 0.1, left: e.pageX - 5, top: e.pageY - 5 });
       gsap.to(follower.current, { duration: 0.8, left: e.pageX - 15, top: e.pageY - 15 });
