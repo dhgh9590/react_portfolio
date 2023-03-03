@@ -20,7 +20,7 @@ body::-webkit-scrollbar-track {background-color: #575757;}
     .cursor-follower{display: none;}
 }
 
-/* 마우스  설정*/
+/* 마우스 */
 .cursor {
     position: absolute;
     left: -50px; top: 0;
