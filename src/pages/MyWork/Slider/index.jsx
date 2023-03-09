@@ -32,6 +32,51 @@ export default function App() {
                 <SwiperSlide key={0}>
                   <div className={`${styles.slide} slide`}>
                     <div className={`${styles.slide_img} slide_img`}>
+                      <img src={`${process.env.PUBLIC_URL}/images/mockup/masil.png`} alt="슬라이드1" />
+                    </div>
+                    <div className={`${styles.slide_text} slide_text`}>
+                      <p>RESPONSIVE WEB</p>
+                      <h2>MaSil</h2>
+                      <div className={`${`${styles.text} text`} text`}>
+                        <strong>프로젝트 소개</strong>
+                        <em>마실 커뮤니티 사이트 팀프로젝트</em>
+                        <em>자신의 동네에서 발생한 사건 또는 일상 이야기를 서로 공유하는 사이트 입니다.</em>
+                      </div>
+                      <div className={`${`${styles.text} text`} text`}>
+                        <strong>팀 구성</strong>
+                        <em>프론트엔드 2명</em>
+                        <em>백엔드 3명</em>
+                      </div>
+                      <div className={`${`${styles.text} text`} text`}>
+                        <strong>기여도 및 제작기간</strong>
+                        <em>제작기간 2개월 ~ 진행중</em>
+                        <em>프론트엔드 50%</em>
+                      </div>
+                      <div className={`${`${styles.text} text`} text`}>
+                        <strong>제작 방식</strong>
+                        <em>프론트엔드 : HTML5, PostCSS, React</em>
+                        <em>백엔드 : Java, Spring, MySQL, AWS</em>
+                      </div>
+                      <div className={`${`${styles.btn_wrap} btn_wrap`} btn_wrap`}>
+                        <button>
+                          <a href="https://develop--masil.netlify.app/" target="_blank" rel="noreferrer">
+                            VIEW SITE
+                          </a>
+                        </button>
+                        <button>
+                          <a href="https://github.com/masil-team/Front-End" target="_blank" rel="noreferrer">
+                            GIT HUB
+                          </a>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              </li>
+              <li>
+                <SwiperSlide key={1}>
+                  <div className={`${styles.slide} slide`}>
+                    <div className={`${styles.slide_img} slide_img`}>
                       <img src={`${process.env.PUBLIC_URL}/images/mockup/calendar.png`} alt="슬라이드1" />
                     </div>
                     <div className={`${styles.slide_text} slide_text`}>
@@ -73,8 +118,9 @@ export default function App() {
                   </div>
                 </SwiperSlide>
               </li>
+
               <li>
-                <SwiperSlide key={1}>
+                <SwiperSlide key={2}>
                   <div className={`${styles.slide} slide`}>
                     <div className={`${styles.slide_img} slide_img`}>
                       <img src={`${process.env.PUBLIC_URL}/images/mockup/mollee.png`} alt="슬라이드2" />
@@ -122,7 +168,7 @@ export default function App() {
                 </SwiperSlide>
               </li>
               <li>
-                <SwiperSlide key={2}>
+                <SwiperSlide key={3}>
                   <div className={`${styles.slide} slide`}>
                     <div className={`${styles.slide_img} slide_img`}>
                       <img src={`${process.env.PUBLIC_URL}/images/mockup/movie.png`} alt="슬라이드3" />
@@ -167,7 +213,7 @@ export default function App() {
                 </SwiperSlide>
               </li>
               <li>
-                <SwiperSlide key={3}>
+                <SwiperSlide key={4}>
                   <div className={`${styles.slide} slide`}>
                     <div className={`${styles.slide_img} slide_img`}>
                       <img src={`${process.env.PUBLIC_URL}/images/mockup/youtube_music.png`} alt="슬라이드4" />
@@ -212,7 +258,7 @@ export default function App() {
                 </SwiperSlide>
               </li>
               <li>
-                <SwiperSlide key={4}>
+                <SwiperSlide key={5}>
                   <div className={`${styles.slide} slide`}>
                     <div className={`${styles.slide_img} slide_img`}>
                       <img src={`${process.env.PUBLIC_URL}/images/mockup/youtube.png`} alt="슬라이드5" />
@@ -254,7 +300,7 @@ export default function App() {
                 </SwiperSlide>
               </li>
               <li>
-                <SwiperSlide key={5}>
+                <SwiperSlide key={6}>
                   <div className={`${styles.slide} slide`}>
                     <div className={`${styles.slide_img} slide_img`}>
                       <img src={`${process.env.PUBLIC_URL}/images/mockup/frock.png`} alt="슬라이드6" />
@@ -297,7 +343,7 @@ export default function App() {
                 </SwiperSlide>
               </li>
               <li>
-                <SwiperSlide key={6}>
+                <SwiperSlide key={7}>
                   <div className={`${styles.slide} slide`}>
                     <div className={`${styles.slide_img} slide_img`}>
                       <img src={`${process.env.PUBLIC_URL}/images/mockup/news.png`} alt="슬라이드7" />
