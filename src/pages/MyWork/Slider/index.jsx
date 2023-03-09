@@ -12,7 +12,7 @@ export default function App() {
   const [count, setCount] = useState();
   return (
     <div className={`${styles.container} slide1`}>
-      <span className={styles.count}>{count && count}/7</span>
+      <span className={styles.count}>{count && count}/8</span>
       <div className={styles.slider_wrap}>
         <Swiper
           modules={[Navigation]}
