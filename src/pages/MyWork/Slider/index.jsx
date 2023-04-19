@@ -198,7 +198,7 @@ export default function App() {
                       </div>
                       <div className={`${styles.btn_wrap} btn_wrap`}>
                         <button>
-                          <a href="https://movie1-375907.du.r.appspot.com/" target="_blank" rel="noreferrer">
+                          <a href="https://movie-384211.du.r.appspot.com" target="_blank" rel="noreferrer">
                             VIEW SITE
                           </a>
                         </button>
@@ -243,7 +243,7 @@ export default function App() {
                       </div>
                       <div className={`${styles.btn_wrap} btn_wrap`}>
                         <button>
-                          <a href="https://music1-375907.du.r.appspot.com/" target="_blank" rel="noreferrer">
+                          <a href="https://music-384211.du.r.appspot.com/" target="_blank" rel="noreferrer">
                             VIEW SITE
                           </a>
                         </button>
